@@ -1,0 +1,23 @@
+.contsize{
+    height: 50rem;
+    overflow-y: scroll;
+    padding-right: 1rem;
+    
+}
+
+.enlacerojo sup:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.btnhover{
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btnhover:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

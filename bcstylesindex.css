@@ -1,0 +1,84 @@
+.imagenot{
+    height: 25rem;
+    overflow: hidden;
+}
+
+
+.animnav:hover:before{
+    content: "";
+    background-color: white;
+    width: 5.5rem;
+    padding-bottom:0.1rem;
+    margin-top: 2rem;
+    position: absolute;  
+    
+    animation-name: banimnav;
+    animation-duration: 0.5s;
+}
+
+.animnav:hover:first-child:before{
+    width: 8rem;
+}
+
+
+.contportada{
+    padding-left: 0px;
+}
+
+.imgportada{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top:40%;
+    color: white;
+    
+    animation-name: textportada;
+    animation-duration: 2s;
+}
+.imgportada:hover{
+    color:white;
+}
+
+/*
+
+@keyframes textportada {
+  from {
+        color: rgba(0, 0, 0, 0.6);
+        opacity: 0%;
+        font-size: 0px;}
+  to {
+      opacity:100%;
+      font-size: inherit;}
+}
+
+@keyframes banimnav{
+  from {
+      transform: scaleX(0);}
+  to {
+      transform: scaleX(1);
+    }
+}
+*/
+ 
+.rojo{
+        background-color: #dc3545 !important;
+        background-image:linear-gradient(45deg,  #cd0a0a, #dc3545);
+}
+    }  
+
+.coloractivo{
+        
+    color:#dba5a9!important;
+}
+    
+.boton{
+    color:white;
+    background-image:linear-gradient(45deg,  #cd0a0a, #dc3545);
+}
+    
+.boton:hover{
+    color:white;
+    background-image:linear-gradient(45deg,  #dc3545, #ec4646);
+}
+.caruselaltura{
+    height: 18rem;
+}
+

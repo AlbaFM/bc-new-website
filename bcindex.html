@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, scale=none">
+        <!--archivos bootstrap css-->
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css"/>
+        <title>Inici-Biblioteca de Catalunya</title>
+        <!--archivocsspropio-->
+        <link rel="stylesheet" type="text/css" href="bcstylesindex.css">
+        <!--iconosviaweb-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <!--poppers and bubles-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+<!--herramientas sup-->
+            <section class="row mt-2 justify-content-end">
+                <div class="input col-auto">
+                    <a href="#" class="btn bg-white text-danger mb-3">AA<small>AA</small></a>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn p-0">
+                        <div class="input-group-text" id="btnGrouphelp">
+                            <div class="material-icons mr-1">help</div>
+                            <small class="text-secondary">Ajuda</small>
+                        </div>      
+                    </button>
+                </div> 
+                
+               <div class="col-auto">
+                    <a class="btn p-0" href="signin/signin.html">
+                        <div class="input-group-text" id="btnGrouplogin">
+                            <div class="material-icons mr-1">perm_identity</div>
+                            <small class="text-secondary">Conecta't!</small>
+                        </div>      
+                    </a>
+                </div>    
+            </section>
+            <header class="row justify-content-start">
+<!-- imagen logo-->
+                <div class="col">
+                    <a href="bcindex.html"><img class="w-50" src="recursos-img/logo.png"/></a>
+                </div>
+<!--formulario de busqueda-->
+                <div class="input-group col-4 mt-2">
+                    <input type="search" class="form-control" id="search" placeholder="Cercar al web..." aria-label="Search" aria-describedby="search-addon" >
+                    <label class="form-label" for="search">
+                        <input type="submit" class="btn btn-secondary material-icons" value="search">
+                    </label>
+                </div>
+            </header>
+<!-- barra de navegacion-->
+                <nav class="row navbar navbar-expand-lg navbar-dark mt-3 rojo">
+                    <div class="container-fluid justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active animnav mx-5">
+                                    <a class="nav-link" href="fonscercador/fonscercador.html">Fons i Col·leció</a>
+                                </li>
+                                <li class="nav-item active animnav mx-5">
+                                    <a class="nav-link" href="agenda/agenda.html">Agenda</a>
+                                </li>
+                                <li class="nav-item dropdown animnav active mx-5">
+                                    <a class="nav-link dropdown-toggle" href="#" id="Dropdownfons" role="button" data-bs-toggle="dropdown" aria-expanded="false">Serveis</a>
+                                <ul class="dropdown-menu" aria-labelledby="Dropdownfons">
+                                    <li><a class="dropdown-item" href="serveis/serveis-confon.html">Consulta del Fons</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-prepor.html">Reproduccio de Material</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-preinter.html">Prestec</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-form.html">Formació d'usuaris</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-cabconsul.html">Cabines de Consulta</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-film.html">Filmacions</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-visit.html">Visites Guiades</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-llibent.html">Llibres per entitats</a></li>
+                                    <li><a class="dropdown-item" href="serveis/serveis-venda.html">Venda en Linea</a></li>
+                                </ul>
+                                </li>
+                                
+                                <li class="nav-item active animnav mx-5">
+                                    <a class="nav-link" href="contacte/contacte.html">Contacte</a>
+                                </li> 
+                            </ul>
+                    </div>
+                </nav>
+<!--imagen de portada-->
+            <section class="row mb-5 border-bottom">
+                <div class="col-8">
+                <div class="my-3 p-0">
+                    <div class="card border-0 imagenot">
+                        <img class="card-img" src="recursos-img-index/bc-portada1.png" alt="Card image"/>
+                        <a href="#" class="card-img-overlay contportada">
+                            <p class="btn py-3 pr-3 imgportada">Coneix la Biblioteca de Catalunya, les seves seus i el nostre fons</p>
+                        </a>
+                    </div>
+                
+<!--noticias-->
+            <div class=" my-4">
+                <div class="row">
+                    <span class=" material-icons">keyboard_arrow_down</span>
+                    <a href="#"><small class="text-secondary">Ultimes Noticies</small></a>
+                </div> 
+                <div class="card border-0">
+                    <div class="row g-0">
+                        <div class="col-2 card-header bg-transparent border-0">
+                            <h1 class="text-danger text-center">12</h1>
+                            <p class="text-center">DIC</p>
+                        </div>
+                        <div class="col-10">
+                            <div class="card-body">
+                                <small>Activitats</small>
+                                <h5 class="card-title">10a temporada de l'espectacle "Maragall a casa" de Josep M. Jaumà, a l'Arxiu Maragall</h5>
+                                <p class="card-text">Maragall a casa es un espectacle construit a partir d'articles, poemes i correspondencia del poeta.</p>
+                                <p class="card-text"><small class="text-muted">Seguent funció 14/12/2020<br>Més informació a http://www.maragallacasa.cat</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+             </div>   
+                
+            <div class=" col-3 offset-1 mt-3 align-middle">
+                <div>
+                    <span class=" material-icons">keyboard_arrow_down</span>
+                    <a href="#"><small class="text-secondary">Enllaç directe a:</small></a>
+                </div>
+                
+                <div class="list-group list-group-flush mt-3">
+                    <a class="list-group-item list-group-item-action" href="#">Patrimoni d'Editors<br>i Entitats de Catalunya</a>
+                    <a class="list-group-item list-group-item-action" href="#">ARCA</a>
+                    <a class="list-group-item list-group-item-action" href="#">MDC</a>
+                    <a class="list-group-item list-group-item-action" href="#">Prensa Catalana Digitalitzada</a>
+                    <a class="list-group-item list-group-item-action" href="#">Transcriu-me!!</a>
+                    <a class="list-group-item list-group-item-action" href="#">PADICAT</a>
+                    <a class="list-group-item list-group-item-action" href="#">,CANTIC,</a>
+                    <a class="list-group-item list-group-item-action" href="#">CCPBC</a>
+                    <a class="list-group-item list-group-item-action" href="#">Biografia Catalana</a>
+                    <a class="list-group-item list-group-item-action" href="#">RACO</a>
+                    <a class="list-group-item list-group-item-action" href="#">(LEMAC)</a>
+                </div>
+            </div>
+        </section>
+<!--Novedades-->
+        <section>
+            <div class="row mt-5">
+                <span class=" material-icons">keyboard_arrow_down</span>
+                <a href="fonscercador/fonscercador.html"><h5 class="text-danger">Noves Incorporacions</h5></a>
+            </div>
+            <div id="blogCarousel" class="carousel slide caruselaltura" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-slide-to="0" class="active"></li>
+                  <li data-slide-to="1"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro1.jpeg"></a>
+                        </div>
+                      </div>
+                      <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro2.jpeg"></a>
+                        </div>
+                      </div>
+                      <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro3.jpeg"></a>
+                          </div>
+                      </div>
+                        <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro4.jpg"></a>
+                          </div>
+                      </div>
+                    </div>
+                    <!--.row-->
+                  </div>
+                  <!--.item-->
+                  <div class="carousel-item ">
+                    <div class="row">
+                      <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro5.jpg"></a>
+                          </div>
+                      </div>
+                    <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro6.jpg"></a>
+                          </div>
+                      </div>
+                      <div class="col-md-3" >
+                        <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro7.jpg"></a>
+                        </div>
+                      </div>
+                      <div class="col-md-3" >
+                          <div class=" p-5">
+                            <!--Image-->
+                            <a><img class="col-12" alt="" src="recursos-img-index/libro8.jpg"></a>
+                          </div>
+                      </div>
+                    </div>
+                    <!--.row-->
+                  </div>
+                  <!--.item-->
+                </div>
+                <!--.carousel-inner-->
+              </div>
+              <!--.Carousel-->
+        </section>
+<!--footer-->
+        <footer class="row mt-5 py-3 border-top border-danger border-5 justify-content-center">
+            <div class="col-4">
+                 <div class="card bg-transparent border-0 px-2">
+                    <div class="card-body">
+                        <div class="card-title disabled">
+                             <span class="align-middle material-icons">business</span>
+                            <a class="text-danger align-middle">Sobre la BC</a>
+                        </div>
+                        <div class="card-text">
+                            <ul class="list-group">
+                                <li class="list-group-item bg-transparent border-0 pb-0"><a class="text-secondary" href="#"><small>Memories</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Xifres</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Coperació i Projectes</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Cualitat i Estrategia</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Directori i Organigrama</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-text mt-3">
+                            <span class="align-middle material-icons">system_update_alt</span>
+                            <a class="align-middle text-danger" href="../pdfs/reporte2-05-10.pdf" download="Reporte2Mayo2010">Descarega la Guia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-transparent border-0 px-2">
+                    <div class="card-body">
+                        <div class="card-title disabled">
+                            <span class="align-middle material-icons">place</span>
+                            <a class="text-danger align-middle">Ens trobaras a:</a>
+                        </div>
+                        <address class="card-text mt-3"><a class="stretched-link text-secondary" href="#"><small>
+                            Carrer de l'Hospital, 56<br>08001 Barcelona<br><abbr title="Phone">P:</abbr> 34 93 270 23 00</small></a>
+                        </address>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="card-title disabled">
+                                <span class="align-middle material-icons">share</span>
+                                <a class="text-secondary align-middle" href="#">Xarxes Socials</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-link material-icons"alt="facebook">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="twitter">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="instagram">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="googlenews">image</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="px-2">
+                    <ul class="list-group mt-3">
+                        <figure class="figure">
+                            <img src="recursos-img/LogotipoGeneralitatCatalunya.svg.png" class="figure-img img-fluid rounded w-50" alt="logo generalitat de catalunya">
+                        </figure>
+                        <li class="list-group-item text-secondary disabled bg-transparent border-0" aria-disabled="true"><small>&copy;2020 Biblioteca de Barcelona</small></li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-danger dropdown-toggle text-left px-3" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <small>Canviar Idioma</small>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Català</a></li>
+                            <li><a class="dropdown-item" href="#">Castellano</a></li>
+                            <li><a class="dropdown-item" href="#">Engligh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--archivos bootstrap js-->
+        <script type="text/javascript" src="jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+       
+    </div>
+    </body>
+
+</html>

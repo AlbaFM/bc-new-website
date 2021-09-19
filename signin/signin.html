@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, scale=none">
+        <!--archivos bootstrap css-->
+        <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.min.css"/>
+        <title>Fons i Cercador-Biblioteca de Catalunya</title>
+        <!--archivocsspropio-->
+        <link rel="stylesheet" type="text/css" href="../bcstylesindex.css">
+        <link rel="stylesheet" type="text/css" href="signin.css">
+        <!--iconosviaweb-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <!--poppers and bubles-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!--herramientas sup-->
+            <section class="row mt-2 justify-content-end">
+                <div class="input col-auto">
+                    <a href="#" class="btn bg-white text-danger mb-3">AA<small>AA</small></a>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn p-0">
+                        <div class="input-group-text" id="btnGrouphelp">
+                            <div class="material-icons mr-1">help</div>
+                            <small class="text-secondary">Ajuda</small>
+                        </div>      
+                    </button>
+                </div> 
+                
+               <div class="col-auto">
+                    <a class="btn p-0" href="../signin/signin.html">
+                        <div class="input-group-text" id="btnGrouplogin">
+                            <div class="material-icons mr-1">perm_identity</div>
+                            <small class="text-secondary">Conecta't!</small>
+                        </div>      
+                    </a>
+                </div>    
+            </section>
+            <header class="row justify-content-start">
+<!-- imagen logo-->
+                <div class="col">
+                    <a href="../bcindex.html"><img class="w-50" src="../recursos-img/logo.png"/></a>
+                </div>
+<!--formulario de busqueda-->
+                <div class="input-group col-4 mt-2">
+                    <input type="search" class="form-control" id="search" placeholder="Cercar al web..." aria-label="Search" aria-describedby="search-addon" >
+                    <label class="form-label" for="search">
+                        <input type="submit" class="btn btn-secondary material-icons" value="search">
+                    </label>
+                </div>
+            </header>
+<!-- barra de navegacion-->
+            <nav class=" row  navbar navbar-expand-lg navbar-dark mt-3 rojo">
+                <div class="container-fluid justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item animnav active mx-5">
+                            <a class="nav-link" href="../fonscercador/fonscercador.html">Fons i Col·leció</a>
+                        </li>
+                        <li class="nav-item animnav active mx-5">
+                            <a class="nav-link" href="../agenda/agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item dropdown animnav active mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="Dropdownfons" role="button" data-bs-toggle="dropdown" aria-expanded="false">Serveis</a>
+                            <ul class="dropdown-menu" aria-labelledby="Dropdownfons">
+                                    <li><a class="dropdown-item" href="../serveis/serveis-confon.html">Consulta del Fons</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-repro.html">Reproduccio de Material</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-preinter.html">Prestec</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-form.html">Formació d'usuaris</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-cabconsul.html">Cabines de Consulta</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-film.html">Filmacions</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-visit.html">Visites Guiades</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-llibent.html">Llibres per entitats</a></li>
+                                    <li><a class="dropdown-item" href="../serveis/serveis-venda.html">Venda en Linea</a></li>
+                                </ul>
+                        </li>
+                                
+                        <li class="nav-item active animnav mx-5">
+                            <a class="nav-link" href="../contacte/contacte.html">Contacte</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+ 
+<!--content-->
+            <section class="container">
+                <div class="row mb-3 mt-3">
+                    <span class=" align-middle material-icons text-danger">chevron_right</span>
+                    <a><h5 class="text-danger">Conecta't</h5></a>
+                </div>
+                <div class="row mt-5 justify-content-center">
+                    
+<!--signin-->
+                        <div class="card col-5 mx-4 px-4 rounted border-0 shadow-sm hoveron">
+                            <div class="card-body">
+                                <h5 class="card-title py-2 text-center">Identificar-se</h5>
+                                <div class="card-text py-2">
+                                    <div class="my-3">
+                                        <input type="email" class="form-control border-secondary" id="mail" placeholder="name@example.com">
+                                    </div>
+                                     <div class="my-3">
+                                         <input type="password" class="form-control border-secondary" id="passwork" placeholder="contrasenya">
+                                         <a href="#" class="text-dark"><small>Has oblidat la teva contransenya?</small></a>
+                                     </div>
+                                </div>
+                             
+                            <div class="row justify-content-center card-link">
+                                <a href="#" class="btn rounded-pill px-5 mt-3 text-center boton">Accedir
+                                <span class="material-icons align-middle">chevron_right</span></a>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    
+ <!--singup-->               
+                
+                    <div class="card col-5 mx-4 px-4 border-0 shadow-sm hoveron">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title py-2 text-center">Crear Nou Compte</h5>
+                                <p class="cardtext text-center"><small>Ser de la BC es totalment gratuit i te un munt d'abantatges!</small></p>
+                                <div class="card-text py-2">
+                                    <div class="my-3">
+                                        <input type="name" class="form-control border-secondary" id="name" placeholder="nom">
+                                    </div>
+                                     <div class="my-3">
+                                        <input type="email" class="form-control border-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
+                                     </div>
+                                     <div class="my-3">
+                                        <input type="password" class="form-control border-secondary" id="passwork" placeholder="contrasenya">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">Acepto les politiques i termits del servei</label>
+                                </div>
+                                <div class="row justify-content-center card-link">
+                                    <a href="#" class="btn rounded-pill px-5 mt-3 text-center boton">Crear
+                                    <span class="material-icons align-middle">chevron_right</span></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                 </div>
+            </section>
+   
+<!--footer-->
+        <footer class="row mt-5 py-3 border-top border-danger border-5 justify-content-center">
+            <div class="col-4">
+                 <div class="card bg-transparent border-0 px-2">
+                    <div class="card-body">
+                        <div class="card-title disabled">
+                             <span class="align-middle material-icons">business</span>
+                            <a class="text-danger align-middle">Sobre la BC</a>
+                        </div>
+                        <div class="card-text">
+                            <ul class="list-group">
+                                <li class="list-group-item bg-transparent border-0 pb-0"><a class="text-secondary" href="#"><small>Memories</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Xifres</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Coperació i Projectes</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Cualitat i Estrategia</small></a></li>
+                                <li class="list-group-item bg-transparent border-0 py-0"><a class="text-secondary" href="#"><small>Directori i Organigrama</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-text mt-3">
+                            <span class="align-middle material-icons">system_update_alt</span>
+                            <a class="align-middle text-danger" href="../pdfs/reporte2-05-10.pdf" download="Reporte2Mayo2010">Descarega la Guia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-transparent border-0 px-2">
+                    <div class="card-body">
+                        <div class="card-title disabled">
+                            <span class="align-middle material-icons">place</span>
+                            <a class="text-danger align-middle">Ens trobaras a:</a>
+                        </div>
+                        <address class="card-text mt-3"><a class="stretched-link text-secondary" href="#"><small>
+                            Carrer de l'Hospital, 56<br>08001 Barcelona<br><abbr title="Phone">P:</abbr> 34 93 270 23 00</small></a>
+                        </address>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="card-title disabled">
+                                <span class="align-middle material-icons">share</span>
+                                <a class="text-secondary align-middle" href="#">Xarxes Socials</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-link material-icons"alt="facebook">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="twitter">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="instagram">image</a>
+                                <a href="#" class="btn btn-link material-icons"alt="googlenews">image</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="px-2">
+                    <ul class="list-group mt-3">
+                        <figure class="figure">
+                            <img src="../recursos-img/LogotipoGeneralitatCatalunya.svg.png" class="figure-img img-fluid rounded w-50" alt="logo generalitat de catalunya">
+                        </figure>
+                        <li class="list-group-item text-secondary disabled bg-transparent border-0" aria-disabled="true"><small>&copy;2020 Biblioteca de Barcelona</small></li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-outline-danger dropdown-toggle text-left px-3" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <small>Canviar Idioma</small>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Català</a></li>
+                            <li><a class="dropdown-item" href="#">Castellano</a></li>
+                            <li><a class="dropdown-item" href="#">Engligh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            
+                
+<!--archivos bootstrap js-->
+        <script type="text/javascript" src="../jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="../bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+       
+    </div>
+    </body>
+
+</html>
+                

@@ -1,0 +1,42 @@
+dl{
+    background-color: rgb(108, 117, 105, 0.1);
+    padding: 1rem;
+}
+
+dt{
+    
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+dd{
+    padding-left: 1rem;
+
+}
+
+
+.caja{
+   background-color: rgb(108, 117, 105, 0.2)!important; 
+}
+.caja:hover{
+    background-color: rgb(108, 117, 105, 0.1)!important; 
+}
+.caja:hover a{
+    color:#343a40;
+}
+
+
+dt, dd, li{
+    background-color: transparent!important;
+}
+.cajafalse{
+    color: rgb(108, 117, 105, 0.5)!important;
+}
+
+a{
+    color:#494f54;
+}
+a:hover{
+    color: #dc3545;
+}
+
